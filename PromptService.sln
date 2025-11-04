@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PromptService.Api", "PromptService.Api\PromptService.Api.csproj", "{03EC0D11-9952-4BA3-93C8-4CFD47885E46}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PromptService.Tests", "PromptService.Tests\PromptService.Tests.csproj", "{A3CF40CF-FC4C-4430-B986-7B87850B9E65}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{03EC0D11-9952-4BA3-93C8-4CFD47885E46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03EC0D11-9952-4BA3-93C8-4CFD47885E46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03EC0D11-9952-4BA3-93C8-4CFD47885E46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03EC0D11-9952-4BA3-93C8-4CFD47885E46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3CF40CF-FC4C-4430-B986-7B87850B9E65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3CF40CF-FC4C-4430-B986-7B87850B9E65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3CF40CF-FC4C-4430-B986-7B87850B9E65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3CF40CF-FC4C-4430-B986-7B87850B9E65}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

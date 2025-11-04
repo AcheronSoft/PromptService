@@ -73,24 +73,9 @@ The `StaticPrompts.cs` file contains the localized default values for each promp
 
 ## API Endpoints
 
-### `POST /api/v1/prompt/generate`
+### `GET or POST /api/v1/prompt/generate`
 
 Generates a structured prompt based on the provided input.
-
-**Request Body Example:**
-
-```json
-{
-  "role": "Software Engineer",
-  "context": "Working on a new feature for a web application.",
-  "task": "Write a unit test for the authentication module.",
-  "constraints": "Use xUnit and Moq. Ensure 100% code coverage.",
-  "outputFormat": "C# code snippet",
-  "qualityCriteria": "The test should be readable, maintainable, and cover edge cases.",
-  "commentLanguage": "English",
-  "explainLanguage": "English"
-}
-```
 
 **Response Body Example:**
 

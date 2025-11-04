@@ -1,10 +1,6 @@
 ﻿using System.ComponentModel;
 using System.Reflection;
-using Microsoft.Extensions.Options;
-using Microsoft.OpenApi.Any;
 using Microsoft.OpenApi.Models;
-using PromptService.Api.Enums;
-using PromptService.Api.Localization;
 using Swashbuckle.AspNetCore.SwaggerGen;
 
 namespace PromptService.Api.Filters;

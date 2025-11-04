@@ -2,12 +2,6 @@
 using PromptService.Api.Filters;
 using PromptService.Api.Localization;
 using Swashbuckle.AspNetCore.SwaggerGen;
-using Microsoft.Extensions.Configuration;
-using PromptService.Api.Enums;
-using System;
-using System.Collections.Generic;
-using System.IO;
-using PromptService.Api.Extensions;
 
 namespace PromptService.Api.Configuration;
 

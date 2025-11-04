@@ -1,10 +1,8 @@
-﻿using PromptService.Api.Enums;
-
-namespace PromptService.Api.Options;
-
-public class Localization
+﻿namespace PromptService.Api.Options
 {
-    public List<Culture> SupportedCultures { get; set; }
-    public Culture DefaultCulture { get; set; }
-
+    public class Localization
+    {
+        public List<string> SupportedCultures { get; set; }
+        public string DefaultCulture { get; set; }
+    }
 }

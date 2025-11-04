@@ -48,8 +48,9 @@ builder.Services.AddSwaggerGen(options => options.OperationFilter<EnumDescriptio
 // Configure request localization
 builder.Services.Configure<RequestLocalizationOptions>(options =>
 {
-    var supportedCultures = new[] { new CultureInfo("en"), new CultureInfo("ru") };
-    var defaultCulture = builder.Configuration.GetValue<string>("Localization:DefaultCulture") ?? "ru";
+    var localizationOptions = builder.Configuration.GetSection(nameof(Localization)).Get<Localization>();
+    var supportedCultures = localizationOptions.SupportedCultures.Select(c => new CultureInfo(c)).ToArray();
+    var defaultCulture = localizationOptions.DefaultCulture;
 
     options.DefaultRequestCulture = new RequestCulture(defaultCulture);
     options.SupportedCultures = supportedCultures;

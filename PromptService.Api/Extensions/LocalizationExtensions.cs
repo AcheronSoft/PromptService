@@ -1,13 +1,12 @@
 ﻿using PromptService.Api.Enums;
-using PromptService.Api.Options;
 
 namespace PromptService.Api.Extensions;
 
 public static class LocalizationExtensions
 {
-    public static Language ToLanguage(this Culture defaultCulture)
+    public static Language ToLanguage(this string cultureName)
     {
-        return defaultCulture.Name switch
+        return cultureName switch
         {
             nameof(Language.English) => Language.English,
             nameof(Language.Russian) => Language.Russian,

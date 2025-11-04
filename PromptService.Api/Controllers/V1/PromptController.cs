@@ -1,10 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Routing.Matching;
-using Microsoft.Extensions.Options;
 using PromptService.Api.Enums;
-using PromptService.Api.Extensions;
 using PromptService.Api.Models.V1;
-using PromptService.Api.Localization;
 
 namespace PromptService.Api.Controllers.V1;
 

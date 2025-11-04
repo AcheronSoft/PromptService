@@ -26,7 +26,7 @@ public static class LocalizationExtensions
             nameof(Language.Ukrainian) => Language.Ukrainian,
             nameof(Language.Dutch) => Language.Dutch,
             nameof(Language.Hebrew) => Language.Hebrew,
-            _ => throw new ArgumentException("Unknown culture")
+            _ => Language.English // Default to English for unknown cultures
         };
     }
 }
